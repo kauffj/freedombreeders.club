@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tailwind Page</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom background color */
+        body {
+            background-color: #04112f;
+        }
+    </style>
+</head>
+<body class="text-white">
+
+<!-- Logo at the Top -->
+<header class="flex justify-center p-4">
+    <img src="logo.png" alt="Freedom Breeder's Club Logo">
+</header>
+
+<!-- Main Content Section -->
+<main class="flex flex-col md:flex-row items-center md:items-start justify-center mx-4 md:mx-16 lg:mx-32 my-8">
+
+    <!-- Picture on the Left -->
+    <div class="w-full md:w-1/2 flex justify-center md:justify-start mb-4 md:mb-0">
+        <img src="club.jpeg" alt="Photo of the club at PorcFest" class="max-w-full rounded-lg shadow-lg">
+    </div>
+
+    <!-- Text Content on the Right -->
+    <div class="w-full md:w-1/2 md:pl-8 text-center md:text-left">
+        <h1 class="text-3xl font-bold mb-4">Welcome to the Freedom Breeder's Club</h1>
+        <p class="mb-4">We're a group of parents raising children in the Free State of New Hampshire. Our principles:</p>
+        <ul class="m-6 list-disc">
+            <li class="mb-2">
+                Children should be free to explore, pursue, and master their own interests, through both play and intentional learning.
+            </li>
+            <li class="mb-2">
+                Children should acquire pro-liberty skills such as logic, fitness, teamwork, science, self-defense, and self-sufficiency.
+            </li>
+            <li class="mb-2">
+                Children can often do more than you think, if you let them (and raise them the right way).
+            </li>
+        </ul>
+        <p>We love meeting other pro-liberty families in New Hampshire or that are New Hampshire curious. Contact us at <a class="underline" href="hello@freedombreeders.club">hello@freedombreeders.club</a></p>
+    </div>
+
+</main>
+
+</body>
+</html>
